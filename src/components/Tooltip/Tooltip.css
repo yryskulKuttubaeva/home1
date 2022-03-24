@@ -17,7 +17,64 @@
     border-radius: 6px;
     position: absolute;
     z-index: 1;
+    top: -5px;
+    right: 105%;
 }
 .Tooltip:hover .left .description  {
+    visibility: visible;
+}
+.Tooltip .right .description  {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+.Tooltip:hover .right .description  {
+    visibility: visible;
+}
+
+
+.Tooltip .bottom .description  {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.Tooltip:hover .bottom .description  {
+    visibility: visible;
+}
+
+
+.Tooltip .top .description  {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.Tooltip:hover .top .description  {
     visibility: visible;
 }
