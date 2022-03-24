@@ -1,0 +1,51 @@
+.Button {
+   background-color: rgb(221, 221, 221);
+    color: rgb(84, 84, 84);
+    padding: 10px .5rem;
+    margin-top: 25px;
+    margin-left: 10px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: .5rem;
+    display: inline-block;
+
+  }
+  .Button.danger {
+    background-color: rgb(219, 91, 91);
+    border-color: rgb(233, 135, 135);
+    color: rgb(153, 117, 117);
+  }
+  .Button.success {
+    background-color: rgb(82, 230, 112);
+    border-color: rgb(33, 238, 60);
+    color: rgb(73, 121, 84);
+  }
+  .Button.primary {
+    background-color: rgb(120, 73, 207);
+    border-color: rgb(94, 96, 207);
+    color: rgb(54, 54, 80);
+  }
+  .Button.secondary {
+    background-color: rgb(194, 204, 59);
+    border-color: rgb(209, 223, 25);
+    color: rgb(175, 162, 45);
+  }
+  .Button.warning {
+    background-color: rgb(245, 245, 158);
+    border-color: rgb(196, 196, 170);
+    color: rgb(127, 136, 49);
+  }
+  .Button.info {
+    background-color: rgb(160, 168, 162);
+    border-color: rgb(165, 173, 166);
+    color: rgb(26, 32, 28);
+  }
+  .Button.light {
+    background-color: rgb(159, 218, 172);
+    border-color: rgb(164, 199, 169);
+    color: rgb(104, 122, 108);
+  }
+  .Button.dark {
+    background-color: rgb(167, 164, 164);
+    border-color: lightgray;
+    color: rgb(59, 61, 60);
+  }
